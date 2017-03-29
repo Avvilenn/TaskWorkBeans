@@ -1,0 +1,9 @@
+<bean-context>
+    <bean id="bean1" class="edu.javacourse.test.Person">
+        <property name="surName" value="Smith"/>
+        <property name="givenName" value="John"/>
+    </bean>
+    <bean id="bean2" class="edu.javacourse.test.Doctor">
+        <property name="speciality" value="sergeon"/>
+    </bean>
+</bean-context>
